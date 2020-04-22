@@ -1,0 +1,512 @@
+
+}
+body
+{
+    margin: 0;
+background-image:  ;
+  background-color:  ;
+  opacity: 1;
+}
+    .bd img:hover{
+    opacity:0.7 ;
+    }
+#png{
+    top: 0;
+   padding-top: 20px;
+    margin-left: 20px;
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    position: ;
+    
+}
+.titlee{
+    text-decoration: none;
+    font-weight: 600;
+    color:red;
+    top: 0;
+    padding-top: 0px;
+    padding-left: 300px;
+ 
+}
+.titlee a{
+   
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: 800;
+   top: 0;
+    margin-top: 0;
+}
+    #t2{
+        color:goldenrod;
+         
+    }
+}
+.dropbtn {
+  color: black;
+  padding: px;
+  font-size: 10px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;
+    transition: 0.3s ease;
+}
+.dropdown:hover .dropdown-content {display: block;
+    transition: 0.3s ease;
+}
+.dropdown:hover .dropbtn {background-color: #3e8e41;
+    transition: 0.3s ease;
+}
+    
+.navbar
+{
+  width: 100%;
+  background-color: ;
+  height:30px;
+  text-align: left;
+position: ;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: goldenrod;
+    display: block;
+    
+}
+.navbar a{
+  float: ;
+    margin-left: 0px;
+  text-align: center;
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+    font-weight: 600;
+    font-family: monospace;
+    width: auto;
+}
+.dropbtn{
+    float:;
+}
+.b{
+    font-weight: 400;   }
+.navbar-right{
+    float: right;
+    background-color: goldenrod;
+    display: block;
+    height: 40px;
+    margin-right: 8px;
+}
+.navbar-right a:hover,.navbar-right img:hover{
+    color: aliceblue;
+}
+#qimg{
+    padding-right: 0px;
+}
+#qhref{
+    padding-left: 0px;
+}
+.navbar a:hover {
+  background-color:;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-line: overline;
+    transition: 0.3s ease;
+}
+#active {
+  background-color: ;
+    color: white;
+}
+*{
+    box-sizing:botext-emphasis: er-box;
+    
+}
+
+.slideshow-container {
+    box-shadow: 2px 2px 2px 2px grey;
+    box-sizing: content-box;
+ width: 67%;
+    float: left;
+  position: ;
+    opacity: 1;
+    height: 600px;
+}
+
+/* Hide the images by default */
+.mySlides {
+ height: inherit;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+.mySlides fade img{
+ border-radius: 3px;   
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 30px;
+  border-radius: 3px 0 0 3px;
+    margin-right: 0;
+}
+.prev{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 0;  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(225,0,0,0.8);
+    transition: 0.3s ease;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding-bottom: 0;
+  position: 
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    margin-top: 0;
+    position: relative;
+}
+
+.active1, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.text{
+    font-size: 25px;
+    color: brown;
+    text-align:center;
+    text-indent:inherit;
+}
+.sidenav
+{
+    float: right;
+    width: 30%;
+    height: 600px;
+    background-color: ;
+    margin-right: 20px;
+    display: block;
+    text-shadow: -1px 1px 1px #999;
+}
+.sidenav h4{
+    padding-right: 0;
+    font-size: 40px;
+    font-weight: 800px;
+    font-family: monospace;
+    color: goldenrod;
+    text-align: right; 
+    position: ;
+}
+.sidenav p{
+    margin-top: 0;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: right;
+    font-family: ;
+    font-weight: ;
+    position: relative;
+}
+.sidenav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: goldenrod;
+    font-family: monospace;
+    text-align: right;
+    position: ;
+    padding-left: 50px;
+    display: block;
+}
+.sidenav a:hover{
+    color: blueviolet;
+    transition-delay: 0.6s;
+}
+.activity{
+    display:inline;
+    width:;
+    float: left;
+    margin-top: 50px;
+    box-shadow:
+}
+
+.caption h2{
+    display: inline-block;
+    text-decoration: none;  
+    font-family: monospace;
+    color: goldenrod;
+}
+#visit,#scholarships{
+    padding-left: 125px;
+    padding-right: 125px;
+     
+}
+.caption h2:hover,.activity img:hover{
+    color: blueviolet;
+}
+.colored
+{
+ background-color: rgba(0,0,0,0.9);
+    background-image: url(gif.gif);
+    background-size: cover;
+    opacity: 1;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 5px 5px 8px 8px grey;
+}
+.colored p{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: left;
+    font-family: monospace;
+    float: left;
+    width: 300px ;
+   position: relative;
+    color: cyan;
+    margin-left: 10px;
+    text-shadow: -1px 1px 1px #999;;
+}
+.colored a{
+     height: px;
+    float: right;
+     display: inline-block;
+    border-spacing: 30px;
+    padding-right: 10px;
+    color: cyan;
+    text-shadow: 5px 5px 8px 8px grey;
+}
+#colored1{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 30px;
+    height: 50px;
+    width: px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: px;
+     border-radius: 10px;
+}
+#colored2{
+    margin-left: 10px;
+    padding-left: 0px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 30px;
+    height: 50px;
+    width: px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: px;
+    border-radius: 10px;
+}
+.colored a:hover{
+        
+ box-shadow: 5px 5px 8px 8px grey;
+    color: cyan;
+    opacity: 0.5;
+}
+.scheduleform
+{
+    box-shadow: inset 2px 2px 2px 2px grey;
+    width: 1000px;
+    margin-top: 200px;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(255,255,255,0.6);
+}
+.scheduleform p 
+{
+
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 600;
+   top: 0;
+    margin-top: 0; 
+    text-align: center;
+}
+input[type=text],select
+{
+font-family: cursive;
+    width: 700px;
+    align-items: center;
+    height: 50px;
+    background-color:rgba(255,255,255,0.6);
+    padding: 12px 20px;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+   border-radius: 10px;
+    padding:;
+    margin-left: 200px;
+    margin-right: 200px
+    float: ;
+
+}
+placeholder{
+    margin-left: 20px;
+}
+label
+{
+    text-align: center;
+    display: block;
+    font-family: cursive;
+    margin-left: 40px;
+  margin-bottom: 10px;
+}
+input[type=text]
+{
+    background-image: url(unameicon.png);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 60px;
+}
+input[type=date]
+{
+   font-family: cursive;
+    width: 400px;
+    align-items: center;
+    height: 50px;
+    background-color:rgba(255,255,255,0.6);
+    padding: 12px 20px;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+   border-radius: 10px;
+    padding:;
+    margin-left: 350px;
+    margin-right: 350px
+    float: ; 
+    background-image: url(calendaricon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 60px;   
+}
+input[type=email]
+{
+  font-family: cursive;
+    width: 700px;
+    align-items: center;
+    height: 50px;
+    background-color:rgba(255,255,255,0.6);
+    padding: 12px 20px;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+   border-radius: 10px;
+    padding:;
+    margin-left: 200px;
+    margin-right: 200px; 
+        background-image: url(calendaricon.png);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 60px;
+}
+select
+{
+    background-image: url(countryicon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 60px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .scheduleform,input[type=text],select,input[type=date],input[type=email]{
+    width:100%;
+      margin: 0;
+    }
+    .scheduleform p
+{
+
+    text-decoration: none;
+    font-size:30px;
+    font-weight: 400;
+   top: 0;
+    margin-top: 0; 
+    text-align: center;
+}
+    }
+}
+    @media only screen and (max-width:620px)
+    {
+        .titlee{
+         width:40%;
+            float: left;
+        }  
+        .navbar{
+            width: 100%;
+        }
+    }
